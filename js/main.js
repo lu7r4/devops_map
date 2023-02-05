@@ -1,3 +1,55 @@
+//linux
+let button12 = document.querySelector('.title_12');
+let button13 = document.querySelector('.title_13');
+//let button14 = document.querySelector('.title_14');
+
+
+let p12 = document.querySelector('.linux_text_p');
+let p13 = document.querySelector('.linux_text_p');
+//let p14 = document.querySelector('.linux_text_p');
+let classTitle12 = document.querySelector('.title_12');
+let classTitle13 = document.querySelector('.title_13');
+//let classTitle14 = document.querySelector('.title_14');
+// знать Линукс для чайников
+
+button12.addEventListener('click', () => {
+    p12.innerHTML =  `<div class="linux__flex">
+    <div class="linux__flex_item"><h3 class="kubernetes_title">Linux для чайников</h3>
+        <button class="link"><a target="_blank" href="https://avidreaders.ru/book/linux-dlya-chaynikov.html">Скачать</a></button>
+    </div>
+    <div class="linux__flex_item"><h3 class="kubernetes_title">Основы Linux</h3>
+        <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PL0lO_mIqDDFUwVWvVitxG2oXA6a-Nq-Qq">Скачать</a></button>
+    </div>
+    <div class="linux__flex_item"><h3 class="kubernetes_title">LPIC-1 (exam 101)</h3>
+        <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PLmxB7JSpraiep6kr802UDqiAIU-76nGfc">Скачать</a></button>
+    </div>
+</div>`
+    classTitle13.classList.remove('title_active');
+    //classTitle14.classList.remove('title_active');
+    classTitle12.classList.add('title_active');
+    
+}
+)
+// уметь Основы Линукс
+button13.addEventListener('click', () => {
+    p13.innerHTML =  `
+    in progress
+    `
+    //classTitle14.classList.remove('title_active');
+    classTitle12.classList.remove('title_active');
+    classTitle13.classList.add('title_active');
+}
+)
+// посмотреть
+/*button14.addEventListener('click', () => {
+    p14.innerHTML =  `<h3 class="kubernetes_title">LPIC-1 (exam 101)</h3>
+    <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PLmxB7JSpraiep6kr802UDqiAIU-76nGfc">Скачать</a></button>`
+    classTitle13.classList.remove('title_active');
+    classTitle12.classList.remove('title_active');
+    classTitle14.classList.add('title_active');
+}
+)*/
+
 //terraform
 let button1 = document.querySelector('.title_1');
 let button2 = document.querySelector('.title_2');
@@ -178,7 +230,7 @@ button9.addEventListener('click', () => {
 }
 )
 //git
-let button10 = document.querySelector('.title_10');
+/*let button10 = document.querySelector('.title_10');
 let button11 = document.querySelector('.title_11');
 
 let p10 = document.querySelector('.git_text_p');
@@ -202,65 +254,39 @@ button10.addEventListener('click', () => {
     classTitle11.classList.remove('title_active');
     classTitle10.classList.add('title_active');
 }
-)
-//linux
-let button12 = document.querySelector('.title_12');
-let button13 = document.querySelector('.title_13');
-let button14 = document.querySelector('.title_14');
+)*/
 
-
-let p12 = document.querySelector('.linux_text_p');
-let p13 = document.querySelector('.linux_text_p');
-let p14 = document.querySelector('.linux_text_p');
-let classTitle12 = document.querySelector('.title_12');
-let classTitle13 = document.querySelector('.title_13');
-let classTitle14 = document.querySelector('.title_14');
-
-
-button12.addEventListener('click', () => {
-    p12.innerHTML =  `<h3 class="kubernetes_title">Linux для чайников</h3>
-    <button class="link"><a target="_blank" href="https://avidreaders.ru/book/linux-dlya-chaynikov.html">Скачать</a></button>`
-    classTitle13.classList.remove('title_active');
-    classTitle14.classList.remove('title_active');
-    classTitle12.classList.add('title_active');
-    
-}
-)
-button13.addEventListener('click', () => {
-    p13.innerHTML =  `<h3 class="kubernetes_title">Основы Linux</h3>
-    <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PL0lO_mIqDDFUwVWvVitxG2oXA6a-Nq-Qq">Скачать</a></button>`
-    classTitle14.classList.remove('title_active');
-    classTitle12.classList.remove('title_active');
-    classTitle13.classList.add('title_active');
-}
-)
-button14.addEventListener('click', () => {
-    p14.innerHTML =  `<h3 class="kubernetes_title">LPIC-1 (exam 101)</h3>
-    <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PLmxB7JSpraiep6kr802UDqiAIU-76nGfc">Скачать</a></button>`
-    classTitle13.classList.remove('title_active');
-    classTitle12.classList.remove('title_active');
-    classTitle14.classList.add('title_active');
-}
-)
 //python
 let button15 = document.querySelector('.title_15');
 let button16 = document.querySelector('.title_16');
-let button17 = document.querySelector('.title_17');
+//let button17 = document.querySelector('.title_17');
 
 
 let p15 = document.querySelector('.python_text_p');
 let p16 = document.querySelector('.python_text_p');
-let p17 = document.querySelector('.python_text_p');
+//let p17 = document.querySelector('.python_text_p');
 let classTitle15 = document.querySelector('.title_15');
 let classTitle16 = document.querySelector('.title_16');
-let classTitle17 = document.querySelector('.title_17');
+//let classTitle17 = document.querySelector('.title_17');
 
 
 button15.addEventListener('click', () => {
-    p15.innerHTML =  `<h3 class="kubernetes_title">Stepik курс для начинающих</h3>
-    <button class="link"><a target="_blank" href="https://stepik.org/course/58852/promo">Перейти</a></button>`
+    p15.innerHTML =  `<div class="linux__flex">
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Stepik курс для <br> начинающих</h3>
+    <button class="link"><a target="_blank" href="https://stepik.org/course/58852/promo">Перейти</a></button>
+    </div>
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Stepik курс для <br> продвинутых</h3>
+    <button class="link"><a target="_blank" href="https://stepik.org/course/68343/promo">Перейти</a></button>
+    </div>
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Dive into Python</h3>
+    <button class="link"><a target="_blank" href="https://soft.sibnet.ru/soft/19208-dive-into-python-3">Скачать</a></button>
+    </div>
+    </div>`
     classTitle16.classList.remove('title_active');
-    classTitle17.classList.remove('title_active');
+    //classTitle17.classList.remove('title_active');
     classTitle15.classList.add('title_active');
     
 }
@@ -268,60 +294,133 @@ button15.addEventListener('click', () => {
 button16.addEventListener('click', () => {
     console.log('lll')
 
-    p16.innerHTML =  `<h3 class="kubernetes_title">Stepik курс для продвинутых</h3>
-    <button class="link"><a target="_blank" href="https://stepik.org/course/68343/promo">Перейти</a></button>`
+    p16.innerHTML =  `
+    in progress
+    `
 
-    classTitle17.classList.remove('title_active');
+
+    //classTitle17.classList.remove('title_active');
     classTitle15.classList.remove('title_active');
     classTitle16.classList.add('title_active');
 }
 )
-button17.addEventListener('click', () => {
-    p17.innerHTML =  `<h3 class="kubernetes_title">Dive into Python</h3>
-    <button class="link"><a target="_blank" href="https://soft.sibnet.ru/soft/19208-dive-into-python-3">Скачать</a></button>`
+/*button17.addEventListener('click', () => {
+    p17.innerHTML =  ``
     classTitle16.classList.remove('title_active');
     classTitle15.classList.remove('title_active');
     classTitle17.classList.add('title_active');
 }
-)
+)*/
 //Kubernetes
 let button18 = document.querySelector('.title_18');
 let button19 = document.querySelector('.title_19');
-let button20 = document.querySelector('.title_20');
+//let button20 = document.querySelector('.title_20');
 
 
 let p18 = document.querySelector('.kubernetes_text_p');
 let p19 = document.querySelector('.kubernetes_text_p');
-let p20 = document.querySelector('.kubernetes_text_p');
+//let p20 = document.querySelector('.kubernetes_text_p');
 let classTitle18 = document.querySelector('.title_18');
 let classTitle19 = document.querySelector('.title_19');
-let classTitle20 = document.querySelector('.title_20');
+//let classTitle20 = document.querySelector('.title_20');
 
 
 button18.addEventListener('click', () => {
-    p18.innerHTML =  `<h3 class="kubernetes_title">Базовые абстракции на пальцах</h3>
-    <button class="link"><a class="link" target="_blank" href="https://bool.dev/blog/detail/chto-takoe-pods-nodes-containers-i-clusters-v-kubernetes">Читать</a></button>`
+    p18.innerHTML =  `
+    <ul>
+        <li>deployment (replica set)</li>
+        <li>pod</li>
+        <li>readiness liveness probes</li>
+        <li>service\endpoint</li>
+        <li>statefulset</li>
+        <li>jobs\cronjobs</li>
+        <li>daemonset</li>
+        <li>configmap</li>
+        <li>secret</li>
+        <li>storage class</li>
+        <li>persistent volume claim\persistent volume</li>
+        <li>network policy</li>
+        <li>service account\role\clusterrole\role bindings</li>
+        <li>priorityclass</li>
+        <li>pod disruption budget</li>        
+    </ul>`
     classTitle19.classList.remove('title_active');
-    classTitle20.classList.remove('title_active');
+    //classTitle20.classList.remove('title_active');
     classTitle18.classList.add('title_active');
     
 }
 )
 button19.addEventListener('click', () => {
 
-    p19.innerHTML =  `<h3 class="kubernetes_title">Официальная документация</h3>
-    <button class="link"><a target="_blank" href="https://kubernetes.io/ru/docs/concepts/">Перейти</a></button>`
+    p19.innerHTML =  `
+    <div class="linux__flex">
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Базовые абстракции на пальцах</h3>
+    <button class="link"><a class="link" target="_blank" href="https://bool.dev/blog/detail/chto-takoe-pods-nodes-containers-i-clusters-v-kubernetes">Читать</a></button>
+    </div>
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Официальная документация</h3>
+    <button class="link"><a target="_blank" href="https://kubernetes.io/ru/docs/concepts/">Перейти</a></button>
+    </div>
+    <div class="linux__flex_item">
+    <h3 class="kubernetes_title">Годный курс от Slurm</h3>
+    <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PL8D2P0ruohOA4Y9LQoTttfSgsRwUGWpu6">Learn More ></a></button>
+    </div>
+    </div>`
 
     classTitle18.classList.remove('title_active');
-    classTitle20.classList.remove('title_active');
+    //classTitle20.classList.remove('title_active');
     classTitle19.classList.add('title_active');
 }
 )
-button20.addEventListener('click', () => {
-    p20.innerHTML =  `<h3 class="kubernetes_title">Годный курс от Slurm</h3>
-    <button class="link"><a target="_blank" href="https://www.youtube.com/playlist?list=PL8D2P0ruohOA4Y9LQoTttfSgsRwUGWpu6">Learn More ></a></button>`
+/*button20.addEventListener('click', () => {
+    p20.innerHTML =  `
     classTitle18.classList.remove('title_active');
     classTitle19.classList.remove('title_active');
     classTitle20.classList.add('title_active');
 }
+)*/
+
+//всякое
+let button21 = document.querySelector('.title_21');
+let button22 = document.querySelector('.title_22');
+
+
+let p21 = document.querySelector('.other_text_p');
+let p22 = document.querySelector('.other_text_p');
+let classTitle21 = document.querySelector('.title_21');
+let classTitle22 = document.querySelector('.title_22');
+
+button21.addEventListener('click', () => {
+    p21.innerHTML =  `
+    <div class="linux__flex">
+                <div class="linux__flex_item">
+                    <h3 class="kubernetes_title">Сборник вопросов для собеседований</h3>
+                    <button class="link"><a target="_blank" href="https://github.com/kpehki/devopsbot">Перейти</a></button>
+                </div>
+                <div class="linux__flex_item">
+                    <h3 class="kubernetes_title">Телеграм-бот с этими вопросами</h3>
+                    <button class="link"><a target="_blank" href="https://t.me/devopsqiabot">Перейти</a></button>
+                </div>
+            </div>`
+    classTitle22.classList.remove('title_active');
+    //classTitle20.classList.remove('title_active');
+    classTitle21.classList.add('title_active');
+    
+}
 )
+button22.addEventListener('click', () => {
+
+    p22.innerHTML =  `
+    in progress
+    <ul>
+    <li style="color:#fff";></li>
+    <li style="color:#fff";></li>
+    </ul>`
+
+    classTitle21.classList.remove('title_active');
+    //classTitle20.classList.remove('title_active');
+    classTitle22.classList.add('title_active');
+}
+)
+
