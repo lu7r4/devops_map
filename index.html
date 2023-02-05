@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DevOps</title>
+</head>
+<body>
+    <!--меню-->
+    <nav>
+            <div class="menu">
+                <div class="menu_item"><a href="#linux" class="menu_link">linux</a></div>
+                <div class="menu_item"><a href="#git" class="menu_link">git</a></div>
+                
+                <div class="menu_item"><a href="#python" class="menu_link">python</a></div>
+                <div class="menu_item"><a href="#kubernetes" class="menu_link">kubernetes</a></div>
+                <div class="menu_item"><a href="#postgres" class="menu_link">postgres</a></div>
+                <div class="menu_item"><a href="#terraform" class="menu_link">terraform</a></div>
+                <div class="menu_item"><a href="#ansible" class="menu_link">ansible</a></div>
+                <div class="menu_item"><a href="#helm" class="menu_link">helm</a></div>
+                <div class="menu_item"><a href="#teamcity" class="menu_link">teamcity</a></div>
+                <div class="menu_item"><a href="#rabbitmq" class="menu_link">rabbitmq</a></div>
+                <div class="menu_item"><a href="#graylog" class="menu_link">graylog</a></div>
+                </div>
+    </nav>
+
+<!--Parallax-->
+<header class="head"  data-parallax="scroll" data-image-src="img/devops.png">
+    <h1>devOps</h1>
+</header>
+<!--что нужно-->
+<section class="knowledge">
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+<!--linux-->
+<section id="linux">
+   <!--<div class="linux_bg" data-parallax="scroll" data-image-src="img/linux.jpg">
+    <div class="title_block">
+        Linux
+    </div>
+   </div>-->
+   <div class="title_block">
+    Linux
+    </div>
+    <div class="linux">
+        <div class="title_active teamcity_text_title title_12">
+            Что нужно знать
+        </div>
+        <div class="teamcity_text_title title_13">
+            Что нужно уметь
+        </div>
+        <div class="teamcity_text_title title_14">
+            Что посмотреть
+        </div>
+    </div>
+    <div class="teamcity_text linux_text_p">
+        <h3 class="kubernetes_title">Linux для чайников</h3>
+        <button class="link"><a target="_blank" href="https://avidreaders.ru/book/linux-dlya-chaynikov.html">Скачать</a></button>
+    </div>
+</section>
+<!--bash-скрипты-->
+<section id="bash">
+<div class="title_block">
+    bash-скрипты
+</div>
+<div class="bash understanding">
+    <div class="once_title title_active">
+        Что нужно уметь
+    </div>
+</div>
+<div class="text_p">
+    <div class="bash_flex">
+        <div class="bash_flex_item">
+        <button class="link"><a class="link" target="_blank" href="http://ruvds.com/doc/bash.pdf
+            ">ruvds.com</a></button>
+        </div>
+        <div class="bash_flex_item"><button class="link"><a class="" target="_blank" href="http://www.opennet.ru/base/dev/sed1line.txt.html">
+            opennet.ru</a></button>
+        </div>
+    </div>
+    
+    
+        
+        
+</div>
+</section>
+<!--Git-->
+<section id="git">
+    <div class="title_block">
+        Git
+    </div>
+    <div class="git">
+        <div class="title_active teamcity_text_title title_10">
+            Что нужно знать
+        </div>
+        <div class="teamcity_text_title title_11">
+            Что нужно уметь
+        </div>
+    </div>
+    <div class="teamcity_text git_text_p">
+        in progress
+    </div>
+</section>
+<!--Python-->
+<section id="python">
+    <div class="title_block">
+        Python
+    </div>
+    <div class="python">
+        <div class="title_active teamcity_text_title title_15">
+            Что нужно знать
+        </div>
+        <div class="teamcity_text_title title_16">
+            Что нужно уметь
+        </div>
+        <div class="teamcity_text_title title_17">
+            Материалы
+        </div>
+    </div>
+    <div class="teamcity_text python_text_p">
+        <h3 class="kubernetes_title">Stepik курс для начинающих</h3>
+        <button class="link"><a class="link" target="_blank" href="https://stepik.org/course/58852/promo">Перейти</a></button>
+    </div>
+</section>
+<!--Kubernetes-->
+<section id="kubernetes">
+<div class="title_block">
+    Kubernetes
+</div>
+<div class="kubernetes">
+    <div class="title_active teamcity_text_title title_18">
+        Что нужно знать
+    </div>
+    <div class="teamcity_text_title title_19">
+        Что нужно уметь
+    </div>
+    <div class="teamcity_text_title title_20">
+        Что посмотреть
+    </div>
+</div>
+<div class="teamcity_text kubernetes_text_p">
+    <h3 class="kubernetes_title">Базовые абстракции на пальцах</h3>
+    <button class="link"><a class="link" target="_blank" href="https://bool.dev/blog/detail/chto-takoe-pods-nodes-containers-i-clusters-v-kubernetes">Читать</a></button>
+</div>
+</section>
+
+            </div>
+        </div>
+    </div>
+</section>  
+<!--что нужно-->
+<section class="knowledge">
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+<!--Что нужно понимать-->
+<div class="understanding">
+    <div class="once_title title_active">
+        Что нужно понимать
+    </div>
+</div>
+<div class="text_p">
+    <ul>
+        <li>deployment (replica set)</li>
+        <li>pod</li>
+        <li>readiness liveness probes</li>
+        <li>service\endpoint</li>
+        <li>statefulset</li>
+        <li>jobs\cronjobs</li>
+        <li>daemonset</li>
+        <li>configmap</li>
+        <li>secret</li>
+        <li>storage class</li>
+        <li>persistent volume claim\persistent volume</li>
+        <li>network policy</li>
+        <li>service account\role\clusterrole\role bindings</li>
+        <li>priorityclass</li>
+        <li>pod disruption budget</li>        
+    </ul>
+</div>
+<!--postgres-->
+<section id="postgres">
+    <div class="title_block">
+        postgres
+    </div>
+    <div class="postgres">
+        <div class="title_active teamcity_text_title title_7">
+            Что нужно понимать
+        </div>
+        <div class="teamcity_text_title title_8">
+            Что нужно уметь
+        </div>
+        <div class="teamcity_text_title title_9">
+            Материалы
+        </div>
+    </div>
+    <div class="teamcity_text postgres_text_p">
+        <ul>
+            <li>WAL-логи (что такое, зачем нужны, WAL-levels)</li>
+            <li>Схемы (что такое, зачем нужны)</li>
+            <li>Основы SQL (базовы запросы SELECT\INSERT\UPDATE\DELETE + понимание ORDER\LIMIT и JOIN в базовом виде (на простых примерах))</li>
+            <li>Репликация (как работает, как смотреть отставание, что такое replication slots)</li>
+            <li>Фоновые процессы (autovacuum, checkpoint, bgwriter)</li>
+            <li>Базовое понимание индексов (что такое, зачем нужны, как смотреть)</li>
+            <li>Базовое понимание транзакций</li>
+            <li>Как работают миграции схем в БД</li>
+            <li>Знать для чего нужен pg_stat_statements и что там можно увидеть</li>
+            <li>Понимать все, что есть в мониторинге</li>
+            <li>Как снимаются бекапы (хорошо расписано в документации barman https://docs.pgbarman.org/release/2.18/ )</li>
+            <li>Миграции схемы БД (pgmigrate)</li>
+        </ul>
+    </div>
+</section>
+<!--terraform-->
+<section id="terraform">
+<div class="title_block">
+    terraform
+</div>
+<div class="terraform understanding">
+    <div class="once_title title_active">
+        Что нужно уметь
+    </div>
+</div>
+<div class="text_p">
+    <ul>
+        <li>Писать\читать HCL</li>
+        <li>State-файл, варианты хранения</li>
+        <li>Модули</li>
+        <li>Понимать вывод plan</li>
+    </ul>
+</div>
+</section>
+<!--ansible-->
+<section id="ansible">
+<div class="title_block">
+    ansible
+</div>
+<div class="ansible understanding">
+    <div class="once_title title_active">
+        Что нужно уметь
+    </div>
+</div>
+<div class="text_p">
+    <ul>
+        <li>Понимать структуру роли (для чего нужна каждая директория)</li>
+        <li>Читать\писать playbook</li>
+        <li>Читать\писать роли</li>
+    </ul>
+</div>
+</section>
+<!--helm-->
+<section id="helm">
+<div class="title_block">
+    helm
+</div>
+<div class="helm understanding">
+    <div class="once_title title_active">
+        Что нужно уметь
+    </div>
+</div>
+<div class="text_p">
+    <ul>
+        <li>Читать\писать шаблоны</li>
+        <li>Читать\писать values-файлы</li>
+        <li>Понимать отличия helm2 от helm3</li>
+        <li>Уметь работать с helm2 и helm3</li>
+        <li>Понимать сущности release, chart</li>
+        <li>Понимать как хранится состояние чартов</li>
+        <li>Уметь обновлять\откатывать релизы</li>
+    </ul>
+</div>
+</section>
+<!--teamcity-->
+<section id="teamcity">
+<div class="title_block">
+    teamcity
+</div>
+<div class="teamcity">
+    <div class="title_active teamcity_text_title title_1">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_2">
+        Что нужно уметь
+    </div>
+</div>
+<div class="teamcity_text teamcity_text_p">
+    <ul>
+        <li>понимание для чего нужны pipeline'ы и как они выглядят</li>
+        <li>понимание как должен выглядеть хороший пайлайн</li>
+    </ul>
+</div>
+</section>
+<!--rabbitmq-->
+<section id="rabbitmq">
+<div class="title_block">
+    rabbitmq
+</div>
+<div class="rabbitmq">
+    <div class="title_active teamcity_text_title title_3">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_4">
+        Что нужно уметь
+    </div>
+</div>
+<div class="teamcity_text rabbitmq_text_p">
+    <ul>
+        <li>Exchanges</li> 
+        <li>Queues</li> 
+        <li>Bindings</li> 
+        <li>Как происходит миграция схемы</li>
+        <li>Как настраивается отказоустойчивость в кластере</li>
+    </ul>
+</div>
+</section>
+<!--graylog-->
+<section id="graylog">
+<div class="title_block">
+    graylog
+</div>
+<div class="graylog">
+    <div class="title_active teamcity_text_title title_5">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_6">
+        Что нужно уметь
+    </div>
+</div>
+<div class="teamcity_text graylog_text_p">
+    <ul>
+        <li>input</li>
+        <li>index</li>
+        <li>stream</li>
+        <li>alerts</li>
+        <li>graylog query language basic</li>
+        <li>архитектуру</li>
+    </ul>
+</div>
+</section>
+            </div>
+        </div>
+    </div>
+</section>
+<!--map-->
+<section class="map">
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <div class="map_r">
+                    <img src="img/map.png" alt="map">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
